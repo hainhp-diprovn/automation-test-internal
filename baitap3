@@ -1,0 +1,74 @@
+//bài tập 1 : Viết chương trình để in ra các dòng sau:
+//Tôi năm nay 18 tuổi
+//Tôi có hoài bão để theo đuổi
+
+const phuong  ="tôi năm nay 18 tuổi";
+const yen ="tôi có hoài bão để theo đuổi";
+console.log(phuong)
+console.log(yen)
+//bài tập 2 về biến số : Viết chương trình khai báo 2 biến số nguyên và 1 biến số thực sau đó in kết quả ra màn hình
+
+const a=20;
+const b=30;
+const c=25.5;
+console.log(a);
+console.log(b);
+console.log(c)
+//bài tập 3 : Viết chương trình khai báo 3 biến số nguyên bất kì và in ra màn hình các số chia hết cho 2
+
+const d=17;
+const e=20;
+const f=15;
+if (d % 2 === 0){
+    console.log(d);
+}
+if (e % 2 === 0){
+   console.log(e);
+}
+if (f % 2 === 0){
+ console.log(f);
+}
+//bài tập 4: Cho điểm Toán, Lý, Hóa của một học si.// Hãy tính điểm trung bình của học sinh này và cho biết em này 
+//ĐTB >= 8 : xếp loại GIỎI
+// 8 > ĐTB >= 6.5
+// 6.5 > ĐTB >= 5
+// 5 > ĐTB >= 3.5 
+// 3.5 > ĐTB 
+//
+const diem  =8.5;
+if (diem>=8) {
+    console.log("gioi");
+} else if (diem>=6.5){
+    console.log("kha");
+}else if (diem>=5){
+    console.log("trung binh");
+}else if (diem>=3.5){
+    console.log("yeu");
+}else{
+    console.log("kem");
+}
+
+// bài tập 5 giai phương trình gx + h=o
+//
+const g = 1 ;
+const h = 2;
+if (g===0){
+console.log("phuong trinh có hệ số g bằng 0,không phải là phương trình bậc nhât");
+} else {
+    const x = -h/g;
+    console.log(`nghiem của phương trình gx + h = 0 là x = ${x}`);
+}
+ // bài 6 : Cho số nguyên n bất kỳ. Viết chương trình in các số chẵn từ 1 đến n
+ let n = 12;
+ for (let i = 1 ;i <= n;i++){
+    if(i % 2 ==0){
+        console.log(i);
+    }
+ }
+ //bài 7 : Cho số nguyên n. Tính giá trị biểu thức S=1+2+3+...+t
+ let t = 5;
+ let sum = 0;
+ for (let i = 1; i <=t; i++){
+    sum +=i;  //sum = sum + 1
+ }
+ console.log(sum);
