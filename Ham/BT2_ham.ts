@@ -11,4 +11,4 @@ function songuyento(n: number): void {
   if (a == true) console.log(`${n} la so nguyen to`);
   else console.log(`${n} khong phai la so nguyen to`);
 }
-const m = songuyento(4);
+console.log(songuyento(4));
